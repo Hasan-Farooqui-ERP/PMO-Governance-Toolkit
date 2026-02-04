@@ -11,8 +11,9 @@ This framework defines the "Governance Bridge" between fluid business requiremen
 
 ### 📉 Root Cause Analysis (RCA) for Validation Failures
 When validation iterations fail (e.g., during the 86+ cycles of a Greenfield rollout), I utilize visual aids to communicate the "Why" to stakeholders:
-* **Fishbone (Ishikawa):** Identifying if the failure is due to *Resources, Budget, Technical Debt, or External PESTLE factors.*
+** **Fishbone (Ishikawa):**   [View Framework Details](./six-sigma-optimization.md#fishbone-ishikawa-diagram) Identifying if the failure is due to *Resources, Budget, Technical Debt, or External PESTLE factors.*
 * **5-Whys:** Drilling down from a "Delay" to a "Process Gap."
+
 
 ### 📊 Day 1 Readiness Dashboard (Logic)
 | Validation Stream | Iteration # | Status | Blocker Root Cause | Strategy |
