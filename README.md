@@ -20,6 +20,7 @@ This repository serves as a "Single Source of Truth" for my project management m
 | **Operations** | [`handover-to-bau.md`](./handover-to-bau.md) | Reliability-focused Go-Live checklists and support models. |
 | **Reporting** | [`weekly-status-report.md`](./weekly-status-report.md) | Executive RAG status templates for SteerCo visibility. |
 | **Compliance** | [`privacy-impact-assessment.md`](./privacy-impact-assessment.md) | GDPR and InfoSec data governance for 7-tier architectures. |
+| **Traceability** | [`supply-chain-traceability.md`](./supply-chain-traceability.md) | GRN-based JIT logic and 7-tier validation for ISO compliance. |
 
 ---
 
