@@ -11,10 +11,12 @@ This repository serves as a "Single Source of Truth" for my project management m
 ### 📑 Core Frameworks
 | Category | File | Description |
 |:--- |:--- |:--- |
-| **Strategy** | [`project-intake-matrix.md`](./project-intake-matrix.md) | High-level evaluation and the "8/80" initial scope filter. |
-| **Execution** | [`change-management-plan.md`](./change-management-plan.md) | CCB protocols and mathematical scope-drift protection. |
+| **Strategy** |	[`project-intake-matrix.md`](	./project-intake-matrix.md) | High-level evaluation and the "8/80" initial scope filter.
+| **Execution** |	[`validation-ready-dashboard.md`](./validation-ready-dashboard.md)	| Governance for technical translation (BRD to FDD) and PESTLE-based scope control.
+| **Optimization** |	[`six-sigma-optimization.md`](./six-sigma-optimization.md) | DMAIC, VSM, and Fishbone RCA frameworks for continuous improvement.
+| **Governance** | [`change-management-plan.md`](./change-management-plan.md) | CCB protocols and mathematical scope-drift protection. |
 | **Cloud FinOps** | [`cloud-data-strategy.md`](./cloud-data-strategy.md) | Visual logic for AWS/Azure cost and lifecycle optimization. |
-| **Governance** | [`resource-allocation.md`](./resource-allocation.md) | Capacity planning and engineering bandwidth management. |
+| **Capacity** | [`resource-allocation.md`](./resource-allocation.md) | Capacity planning and engineering bandwidth management. |
 | **Operations** | [`handover-to-bau.md`](./handover-to-bau.md) | Reliability-focused Go-Live checklists and support models. |
 | **Reporting** | [`weekly-status-report.md`](./weekly-status-report.md) | Executive RAG status templates for SteerCo visibility. |
 | **Compliance** | [`privacy-impact-assessment.md`](./privacy-impact-assessment.md) | GDPR and InfoSec data governance for 7-tier architectures. |
