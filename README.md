@@ -17,6 +17,11 @@ I implemented a structured validation cycle to ensure data integrity during the 
 * **Tier 4:** Cross-Functional Data Integrity (SQL-based ledger vs. physical receipt checks).
 * **Tiers 5-7:** User Acceptance Testing (UAT) and Executive Stakeholder Sign-off.
 
+### 🔄 Crisis Change Management (AZ Enterprise)
+* **Challenge:** Transitioning SMEs from on-premise silos to integrated cloud workflows during the COVID-19 lockdown.
+* **Strategy:** Implemented DevOps tools to bridge communication gaps and introduced iterative training to manage rapid process changes.
+* **Result:** Enhanced organizational visibility and decision-making speed for remote-first teams.
+
 ---
 
 ### 3. Business Value Delivered
@@ -46,8 +51,16 @@ Deployed SQL queries to monitor Cloud Server-1 every 15 minutes, flagging anomal
 **The Result:**
 * **Efficiency:** Improved data management accuracy from 78% to 93%.
 * **SLA Compliance:** 20% reduction in high-priority tickets by resolving root causes before user impact.
+
 ---
 
+### 🔄 Crisis Change Management & Cloud Migration (AZ Enterprise)
+* **Scenario:** Rapid digital pivot for SMEs during the 2020-2022 period.
+* **Strategy:** Transitioned clients from on-premise silos to integrated Cloud/DevOps environments.
+* **Key Outcome:** Beyond the tech stack, I successfully re-aligned business processes to improve visibility and accountability in remote-first teams.
+
+ ---
+  
 ## 📧 Contact & Collaboration
 * **LinkedIn:** [linkedin.com/in/hasan-farooqui-046b967/](https://www.linkedin.com/in/hasan-farooqui-046b967/)
 * **Email:** farooqui.hasan@gmail.com
