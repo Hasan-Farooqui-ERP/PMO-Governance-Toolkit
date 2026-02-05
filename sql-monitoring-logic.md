@@ -23,7 +23,7 @@ ORDER BY
 ```
     ---
 
-*Used to populate the Power BI dashboard to identify site-specific recurring issues.
+### 2. Used to populate the Power BI dashboard to identify site-specific recurring issues.
 ---
 ```sql
 SELECT 
@@ -44,7 +44,7 @@ ORDER BY
 
     ---
 
-*Cross-referencing Warehouse Receipts with the Invoice Ledger to flag price/quantity mismatches.
+### 3. Cross-referencing Warehouse Receipts with the Invoice Ledger to flag price/quantity mismatches.
 ---
 
 ```sql
