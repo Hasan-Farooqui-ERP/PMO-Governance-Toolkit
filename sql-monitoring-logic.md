@@ -21,7 +21,7 @@ WHERE
 ORDER BY 
     HoursOpen DESC;
 ```
-    ---
+
 
 ### 2. Used to populate the Power BI dashboard to identify site-specific recurring issues.
 ---
@@ -42,7 +42,7 @@ ORDER BY
     TotalIncidents DESC;
 ```
 
-    ---
+
 
 ### 3. Cross-referencing Warehouse Receipts with the Invoice Ledger to flag price/quantity mismatches.
 ---
