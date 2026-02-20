@@ -1,49 +1,89 @@
-# Project: Apparel Inventory Architecture & Logistics Optimization
+# Functional Requirements Document (FRD)
 
-# Client: Irish Heritage (Dublin, Ireland)
+**Project:** Apparel Inventory Architecture & Logistics Optimization
 
-# Consultant: Hasan Farooqui
+**Client:** Irish Heritage (Dublin, Ireland)
 
-# System: Dynamics 365 Business Central
+**Consultant:** Hasan Farooqui
 
-# Status: Implementation & Validation Phase
+**System:** Dynamics 365 Business Central
+
+**Status:** Implementation & Validation Phase
 
 ## 1. Executive Summary
-Irish Heritage, a premier apparel retailer in Dublin, faced critical operational challenges due to an outdated "flat" inventory structure. The legacy system lacked the granularity to track stock by **Size**, **Gender**, and **Bin Location**, leading to:
+**Irish Heritage**, a premier apparel retailer in Dublin, faced critical operational challenges due to an outdated "flat" inventory structure. The legacy system lacked the granularity to track stock by **Size, Gender, and Bin Location**, leading to stock-outs of popular items and financial reconciliation gaps.
 
-**Stock-outs:** Popular sizes were unavailable despite "Global" stock being positive.
-
-**Financial Blind Spots:** Inaccurate inventory valuation on the Balance Sheet.
-
-**Logistical Confusion:** No visibility into store returns or bulk B2B orders (e.g., University contracts).
-
-**The Solution:** A full re-architecture of the D365 Business Central environment, implementing Multi-dimensional Variants, Bin Mandatory Governance, and Automated Financial Posting Groups.
+**The Solution:** A full re-architecture of the D365 Business Central environment, implementing Multi-dimensional Variants, Bin Mandatory Governance, Automated Financial Posting Groups, and Assembly BOMs for B2B kitting.
 
 ## 2. Business Requirements & Technical Solutions
 
-## 3. Step-by-Step Implementation Guide (Portfolio Evidence)
-When viewing the repository 03-Apparel-Inventory-Optimization, follow this logic:
+### **REQ-01: SKU Rationalization**
 
-## **Phase A:** Master Data & Governance
+**Solution:** Attributes & Categories.
 
-**Step 1 (JPG 01-03):** Establish the "Master Item." We move from generic descriptions to Data-driven attributes.
+**Logic:** To prevent duplicate SKU creation and enable rich filtering for the web-shop.
 
-**Step 2 (JPG 04 & 11):** The Financial Engine. We map the item to the G/L using FIFO costing and Posting Groups. This ensures the Accountant's reports match the Warehouse reports.
+### REQ-02: Apparel Bifurcation
 
-**Step 3 (JPG 05):** Generate the Variant Matrix. This is the core solution for the "Irish Heritage" size-tracking pain point.
+**Solution:** Multi-dimensional Variants.
 
-## Phase B: Physical Operations
-**Step 4 (JPG 06-07):** Configure the Greenfield Location. By setting "Bin Mandatory," we force the system to know the exact shelf (S-01-M) where the stock sits.
+**Logic:** To track stock at the "Size/Gender" level (e.g., Men's Medium vs. Women's Small).
 
-**Step 5 (JPG 08-09):** The Transaction Proof. We use an Item Journal to simulate a "Shop Return." By selecting the Reason Code, we provide "Why" the stock is back.
+### REQ-03: Warehouse Precision
 
-## Phase C: Advanced Logistics (Current Focus)
-**Step 6 (JPG 10):** The Audit Trail. The Item Ledger Entry (ILE) is the final receipt that proves all the governance above worked perfectly.
+**Solution:** Location & Bin Mandatory.
 
-**Step 7 (JPG 12-13):** Bulk Fulfillment. We create a Special Order for 500 units (University batch) to prove we can segregate B2B demand from everyday retail sales.
+**Logic:** To eliminate "Blind Spots" in the Dublin Warehouse (DUB-WH).
 
-## 4. Project Outcome
-100% Stock Visibility: Every item is now tracked by Size, Color, and Shelf.
+### REQ-04: Financial Integrity
 
-**Reduced Over-ordering:** SKU-level planning ensures we only buy what is needed for specific locations.
-**Automated Finance:** Manual month-end reconciliations are reduced as the G/L updates in real-time with every warehouse post.
+**Solution:** Inventory Posting Setup.
+
+**Logic:** To automate the link between physical stock and G/L Inventory Assets.
+
+### REQ-05: Audit Transparency
+
+**Solution:** Reason Codes.
+
+**Logic:** To differentiate between New Arrivals and Store Returns.
+
+### REQ-06: Bulk B2B Fulfillment
+
+**Solution:** Special Order Linking & Lead Time Governance.
+
+**Logic:** To "earmark" 500 units for Trinity College without affecting retail shelf stock.
+
+### REQ-07: Light Manufacturing (Kitting)
+
+**Solution:** Assembly BOMs with Resource Integration.
+
+**Logic:** To manage "Value Added Services" (Gift Boxing) and track Labor Costs via Resources.
+
+## 3. Implementation Logic (Portfolio Evidence)
+Refer to the **/03-Apparel-Inventory-Optimization** repository for JPG evidence.
+
+### Phase A: Master Data & Governance
+**Step 1 (JPG 01-03):** Establish the "Master Item" with Data-driven attributes.
+
+**Step 2 (JPG 04 & 11):** Financial Mapping to ensure Balance Sheet accuracy.
+
+**Step 3 (JPG 05):** Generate the Variant Matrix to solve size-tracking issues.
+
+### Phase B: Physical Operations & Logistics
+**Step 4 (JPG 06-07):** Configure the Greenfield Location with "Bin Mandatory" tracking.
+
+**Step 5 (JPG 08-09):** Validation using an Item Journal with a Reason Code.
+
+**Step 6 (JPG 12):** Bulk Fulfillment. Linking Sales to Supply via Special Orders.
+
+### Phase C: Production & Costing
+**Step 7 (JPG 13):** Assembly BOM Setup. Integrating Items (Gift Boxes) and Resources (Labor) to calculate total landed cost per unit for B2B orders.
+
+**Step 8 (JPG 10):** The Audit Trail. The Item Ledger Entry (ILE) proves the end-to-end governance worked.
+
+### 4. Project Outcome
+**100% Stock Visibility:** Every item is tracked by Size, Color, and Shelf.
+
+**Cost Accuracy:** Labor and packaging costs are captured via Assembly orders.
+
+**SCM Scalability:** System architecture is ready for B2B expansion and advanced lead-time planning.
