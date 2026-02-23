@@ -27,25 +27,27 @@ Irish Heritage required a modernization of their legacy inventory system to supp
 ---
 
 ## 3. Implementation Logic & Technical Evidence
-*Technical proof is hosted in the D365-Business-Central-Functional-Portfolio repository.*
+
+*Technical proof is hosted in the [D365-Business-Central-Functional-Portfolio](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio) repository.*
 
 ### Phase A: Master Data & Governance
-* **Schema Design:** Item Attributes & Data Governance
-* **Categorization:** Item Category Hierarchy
-* **Variant Mapping:** Size & Gender Variant Matrix
+* **Schema Design:** [Item Attributes & Data Governance](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/01-Functional-Data-Schema-Attributes.JPG)
+* **Categorization:** [Item Category Hierarchy](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/02-Item-Category-Hierarchy-Setup.JPG)
+* **Variant Mapping:** [Size & Gender Variant Matrix](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/04-Multi-Dimensional-Variant-Matrix.JPG)
 
 ### Phase B: Logistics & Finance
-* **Location Setup:** DUB-WH Greenfield & Bin Configuration
-* **Financial Control:** General Ledger Inventory Posting Setup
-* **Validation:** Item Ledger Audit Trail Verification
+* **Location Setup:** [DUB-WH Greenfield & Bin Configuration](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/05-Greenfield-Location-Setup-Bin-Mandatory.JPG)
+* **Financial Control:** [General Ledger Inventory Posting Setup](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/08-Inventory-Financial-Posting-Groups.JPG)
+* **Validation:** [Item Ledger Audit Trail Verification](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/10-Item-Ledger-Audit-Trail.JPG)
 
 ### Phase C: Advanced SCM & Fulfillment (Work in Progress)
-* **Bulk Order Strategy:** [Pending Training Screenshot - Special Order Linking]
-* **Value-Added Services:** [Pending Training Screenshot - Assembly BOM & Labor Resources]
+* **Bulk Order Strategy:** *[Pending Training Screenshot - Special Order Linking]*
+* **Value-Added Services:** *[Pending Training Screenshot - Assembly BOM & Labor Resources]*
 
 ---
 
 ## 4. Operational Sign-off
 The implementation successfully enables Irish Heritage to scale their B2B operations while maintaining 100% financial and physical stock accuracy. The architecture is validated for Dublin-wide distribution and high-volume fulfillment.
 
-**End of Document**
+---
+*End of Document*
