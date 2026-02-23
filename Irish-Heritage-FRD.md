@@ -41,8 +41,8 @@ Irish Heritage required a modernization of their legacy inventory system to supp
 * **Validation:** [Item Ledger Audit Trail Verification](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/10-Item-Ledger-Audit-Trail.JPG)
 
 ### Phase C: Advanced SCM & Fulfillment (Work in Progress)
-* **Bulk Order Strategy:** *[Pending Training Screenshot - Special Order Linking]*
-* **Value-Added Services:** *[Pending Training Screenshot - Assembly BOM & Labor Resources]*
+* **Bulk Order Strategy:** *[Pending Screenshot - Special Order Linking]*
+* **Value-Added Services:** *[Pending Screenshot - Assembly BOM & Labor Resources]*
 
 ---
 
