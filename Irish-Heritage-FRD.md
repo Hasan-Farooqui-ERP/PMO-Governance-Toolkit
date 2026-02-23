@@ -40,9 +40,11 @@ Irish Heritage required a modernization of their legacy inventory system to supp
 * **Financial Control:** [General Ledger Inventory Posting Setup](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/08-Inventory-Financial-Posting-Groups.JPG)
 * **Validation:** [Item Ledger Audit Trail Verification](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/10-Item-Ledger-Audit-Trail.JPG)
 
-### Phase C: Advanced SCM & Fulfillment (Work in Progress)
-* **Bulk Order Strategy:** *[Pending Screenshot - Special Order Linking]*
-* **Value-Added Services:** *[Pending Screenshot - Assembly BOM & Labor Resources]*
+### Phase C: Advanced SCM & Fulfilment
+* **Bulk Order Strategy:** [Special Order (SPEC ORDER) & Drop Ship (DROP SHIP) Fulfillment](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/14-Advanced-SCM-Fulfillment.JPG)
+* **Value-Added Services:** [Assembly BOM Structure with Labor Resource Costing](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/13-Assembly-BOM-Structure.JPG)
+
+---
 
 ---
 
