@@ -1,12 +1,12 @@
 ## 📜 Project Charter Template
 **Project Name:** [e.g., Greenfield ERP Rollout]
-**PM:** Hasan Farooqui
+**PM:** (PM-Name) [e.g., Hasan Farooqui]
 
 ### 1. Business Case
 Bridging legacy data gaps to ensure 100% financial observability in the new D365/SAP environment.
 
 ### 2. Success Criteria
-* **Scope:** 0% Tier-3 scope creep through enforcement of the **8/80 Rule**.
+* **Scope:** 0% Tier-3 scope creep through enforcement of the **8/80 Rule**. --- in WHr
 * **Reliability:** Successful migration of all 7 tiers of the data hierarchy.
 * **Timeline:** UAT completion within 86 validation cycles.
 
