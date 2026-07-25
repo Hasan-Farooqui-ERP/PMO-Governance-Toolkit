@@ -1,5 +1,5 @@
 # 🛡️ Day 1 Readiness & Validation Framework
-
+## This file is a template - Only for educational reasons.
 This framework defines the "Governance Bridge" between fluid business requirements and rigid technical delivery, specifically designed for high-stakes ERP/CRM rollouts.
 
 ### 🔄 The Requirement Evolution Cycle
