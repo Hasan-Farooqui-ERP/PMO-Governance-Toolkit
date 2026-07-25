@@ -1,10 +1,13 @@
 # ERP & Incident Monitoring SQL Logic
-**Project:** Proactive System Governance & SLA Management
+
+Illustrative SQL patterns representing the type of monitoring, reporting, and reconciliation logic I have specified for technical teams to implement across ERP support and infrastructure monitoring roles. These are not verbatim production queries from a single employer, but patterns reflecting real requirements I have defined based on hands-on coordination with technical teams.
+
 
 ---
 
 ### 1. Proactive SLA Breach Monitor
-*Identifies incidents open for > 4 hours without a 'Working' status to trigger the Proactive Monitoring Dashboard.*
+
+* Identifies incidents open for more than a defined threshold (e.g. 4 hours) without an active resolution status, to support proactive monitoring workflows.
 
 ```sql
 SELECT 
@@ -24,6 +27,8 @@ ORDER BY
 
 
 ### 2. Used to populate the Power BI dashboard to identify site-specific recurring issues.
+
+* Aggregates incident volume and average resolution time by site over a rolling 30-day window, used to populate a recurring-issue report and identify problem locations.
 ---
 ```sql
 SELECT 
@@ -45,6 +50,8 @@ ORDER BY
 
 
 ### 3. Cross-referencing Warehouse Receipts with the Invoice Ledger to flag price/quantity mismatches.
+
+* A three-way-match pattern flagging quantity or price discrepancies between warehouse receipts and invoices, reflecting Procure-to-Pay control logic from ERP functional work.
 ---
 
 ```sql
