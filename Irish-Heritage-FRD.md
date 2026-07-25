@@ -1,10 +1,13 @@
 # Functional Requirements Document (FRD) - Template
 
 **Project:** Apparel Inventory Architecture & Logistics Optimization (Illustrative Sandbox Scenario)
+
 **Environment:** Dynamics 365 Business Central Sandbox (Cronus demo dataset)
+
 **Purpose:** Reusable FRD template demonstrating structured requirements documentation for BC inventory/warehouse implementations, built and validated in a self-directed sandbox environment — not tied to any real client engagement.
+
 **Lead Consultant:** Hasan Farooqui  
-**Repository:** PMO-Governance-Toolkit  
+
 
 
 ---
