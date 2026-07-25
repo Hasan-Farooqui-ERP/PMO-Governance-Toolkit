@@ -50,8 +50,7 @@ This template models a modernisation scenario for a growing apparel business —
 
 ---
 
-## 4. Operational Sign-off
-The architecture is validated for Dublin-wide distribution and high-volume fulfilment, incorporating precise labour costing and advanced supply chain logic.
-
+## 4. Template Notes
+* This FRD illustrates the requirements-documentation approach and technical design logic I apply when scoping BC inventory/warehouse implementations — covering SKU governance, warehouse precision, financial controls, and advanced fulfilment logic. Built and tested against the Cronus demo dataset as part of self-directed certification preparation and portfolio development.
 ---
 *End of Document*
