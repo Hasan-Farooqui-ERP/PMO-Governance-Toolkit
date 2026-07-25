@@ -1,12 +1,12 @@
 # ERP Governance & Proactive Support Toolkit
-**Lead Specialist:** Hasan Farooqui, PMP®
+**Lead Specialist:** Hasan Farooqui
 
 This repository serves as a professional portfolio documenting high-fidelity governance frameworks and technical monitoring logic for Enterprise Resource Planning (ERP) transformations.
 
 ---
 
 ## 📋 Strategic Project Charter: Greenfield S/4HANA Implementation
-*Referencing core achievements at 2i Solutions*
+*Referencing core achievements*
 
 ### 1. Project Objective
 To facilitate the transition from a 20-year legacy ERP system to a Greenfield SAP S/4HANA environment while maintaining business continuity and operational "look and feel" for multi-site warehouse operations.
@@ -17,7 +17,7 @@ I implemented a structured validation cycle to ensure data integrity during the 
 * **Tier 4:** Cross-Functional Data Integrity (SQL-based ledger vs. physical receipt checks).
 * **Tiers 5-7:** User Acceptance Testing (UAT) and Executive Stakeholder Sign-off.
 
-### 🔄 Crisis Change Management (AZ Enterprise)
+### 🔄 Crisis Change Management
 * **Challenge:** Transitioning SMEs from on-premise silos to integrated cloud workflows during the COVID-19 lockdown.
 * **Strategy:** Implemented DevOps tools to bridge communication gaps and introduced iterative training to manage rapid process changes.
 * **Result:** Enhanced organizational visibility and decision-making speed for remote-first teams.
@@ -54,7 +54,7 @@ Deployed SQL queries to monitor Cloud Server-1 every 15 minutes, flagging anomal
 
 ---
 
-### 🔄 Crisis Change Management & Cloud Migration (AZ Enterprise)
+### 🔄 Crisis Change Management & Cloud Migration 
 * **Scenario:** Rapid digital pivot for SMEs during the 2020-2022 period.
 * **Strategy:** Transitioned clients from on-premise silos to integrated Cloud/DevOps environments.
 * **Key Outcome:** Beyond the tech stack, I successfully re-aligned business processes to improve visibility and accountability in remote-first teams.
