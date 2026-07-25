@@ -1,5 +1,7 @@
 # 🏁 Operational Handover & Runbook (BAU)
 
+This file is a template
+
 Ensuring that "Go-Live" is a transition, not a collision.
 
 ### 🛠️ Support Model
