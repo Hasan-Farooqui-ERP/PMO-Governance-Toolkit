@@ -1,6 +1,6 @@
 # 📈 Weekly Executive Status Report (RAG)
 
-**Project:** [Project Name] | **Date:** Feb 03, 2026 | **PM:** Hasan Farooqui
+**Project:** [Project Name] | **Date:** Feb 03, 2026 | **PM:** [PM Name]
 
 ### 🚥 Current Status: **AMBER**
 * **Schedule:** On Track (Green)
