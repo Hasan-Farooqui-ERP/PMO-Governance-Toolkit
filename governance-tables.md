@@ -1,7 +1,7 @@
 ### 🚩 RAID Log (Template)
 | ID | Category | Description | Impact | Mitigation Plan | Owner |
 |:---|:---|:---|:---|:---|:---|
-| R01 | Risk | API Rate limits on D365 | High | Implement batch-loading logic | Hasan |
+| R01 | Risk | API Rate limits on D365 | High | Implement batch-loading logic | Emp-Name [e.g. Hasan] |
 | D01 | Dependency | ERP data export | Critical | Site team must provide CSV by Wk 4 | Vendor |
 
 ### 👥 RACI Matrix
