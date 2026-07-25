@@ -3,7 +3,7 @@
 ### 🌊 Value Stream Mapping (VSM)
 I utilize VSM to identify **Non-Value-Added (NVA)** steps in the software delivery lifecycle.
 * **Goal:** Reduce "Lead Time" from Requirement Discovery to Production Commit.
-* **Focus:** Identifying bottlenecks in the "86+ validation iterations" to increase velocity.
+* **Focus:** Identifying bottlenecks in the validation iterations to increase velocity.
 
 ### 🏊 Swimlane (Cross-Functional) Diagram
 Used to clarify hand-offs between departments:
