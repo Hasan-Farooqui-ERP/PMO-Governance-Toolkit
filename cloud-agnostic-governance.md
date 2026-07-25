@@ -1,6 +1,6 @@
 ## ☁️ Cloud-Agnostic Resource Management
 
-I approach Cloud Governance through the lens of **Logic & Cost Optimization**, regardless of the provider (AWS/Azure).
+My approach to cloud governance, based on architectural principles I apply when designing ERP-adjacent cloud solutions:
 
 ### 📐 Structural Logic:
 * **Compute Management:** Managing Virtual Instances (EC2/Azure VMs) to ensure right-sizing and minimize "zombie" resource costs.
