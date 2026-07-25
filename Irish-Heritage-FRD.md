@@ -1,6 +1,8 @@
-# Functional Requirements Document (FRD)
+# Functional Requirements Document (FRD) - Template
 
-**Project:** Apparel Inventory Architecture & Logistics Optimization  
+**Project:** Apparel Inventory Architecture & Logistics Optimization (Illustrative Sandbox Scenario)
+**Environment:** Dynamics 365 Business Central Sandbox (Cronus demo dataset)
+**Purpose:** Reusable FRD template demonstrating structured requirements documentation for BC inventory/warehouse implementations, built and validated in a self-directed sandbox environment — not tied to any real client engagement.
 **Lead Consultant:** Hasan Farooqui  
 **Repository:** PMO-Governance-Toolkit  
 
@@ -8,7 +10,7 @@
 ---
 
 ## 1. Executive Summary
-Irish Heritage required a modernization of their legacy inventory system to support growing B2B demand and retail complexity. This FRD outlines the transition from a "flat" inventory structure to a multi-dimensional, bin-managed architecture in **Dynamics 365 Business Central**.
+This template models a modernisation scenario for a growing apparel business — transitioning from a "flat" inventory structure to a multi-dimensional, bin-managed architecture in Dynamics 365 Business Central to support B2B demand and retail complexity.
 
 ---
 
