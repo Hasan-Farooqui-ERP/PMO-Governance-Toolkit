@@ -5,7 +5,7 @@
 ### 🚥 Current Status: **AMBER**
 * **Schedule:** On Track (Green)
 * **Budget:** On Track (Green)
-* **Risks:** High (Amber) - *Due to AWS API Rate Limiting*
+* **Risks:** High (Amber) - *Due to (Reason for delay)*
 
 ### 🏆 Top 3 Accomplishments (Last Week)
 1. Successfully migrated Level 4 (Cost Center) data to D365.
